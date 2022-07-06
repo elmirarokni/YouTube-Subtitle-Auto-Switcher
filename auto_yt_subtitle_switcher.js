@@ -40,7 +40,7 @@
     }
 
     function hookPlayer() {
-        const newPlayer = document.getElementById('movie_player')
+        const newPlayer = document.getElementById('movie_player') || document.getElementById('c4-player')
         if (player !== newPlayer) {
             player = newPlayer
         }
@@ -56,12 +56,6 @@
         changeCaptionLanguage()
     }
 
-    function onPageDataUpdated(event) {
-        if (event.detail.pageType === 'watch') {
-            hookPlayer()
-        }
-    }
-
     window.addEventListener('load', hookPlayer)
-    window.addEventListener('yt-page-data-updated', onPageDataUpdated)
+    window.addEventListener('yt-page-data-updated', hookPlayer)
 })()

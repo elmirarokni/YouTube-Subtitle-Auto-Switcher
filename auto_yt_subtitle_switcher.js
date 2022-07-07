@@ -18,7 +18,7 @@
     'use strict'
 
     // 中文（简体）-> 中文（中国）-> 中文 -> 中文（香港） -> 中文（台湾）
-    const LANGUAGE_CODE_PRIORITY = [ 'zh-Hans', 'zh-CN', 'zh', 'zh-HK', 'zh-TW' ]
+    const LANGUAGE_CODE_PRIORITY = [ 'fa-IR' ]
 
     function getBestLanguageCode(captions) {
         if (captions) {

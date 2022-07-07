@@ -1,10 +1,17 @@
 // ==UserScript==
-// @name         YouTube Subtitle Auto Switcher
-// @version      0.1
-// @author       Tony
-// @description  自动切换YouTube字幕到中文
-// @match        *://*/*
-// @grant        none
+// @name           YouTube Subtitle Auto Switcher
+// @namespace      https://github.com/Legend-Master
+// @version        0.1
+// @author         Tony
+// @description    Switch YouTube subtitle to Chinese automatically
+// @description:zh 自动切换YouTube字幕到中文
+// @homepage       https://github.com/Legend-Master/YouTube-Subtitle-Auto-Switcher
+// @icon           https://www.google.com/s2/favicons?sz=64&domain=youtube.com
+// @updateURL      https://raw.githubusercontent.com/Legend-Master/YouTube-Subtitle-Auto-Switcher/main/auto_yt_subtitle_switcher.js
+// @downloadURL    https://raw.githubusercontent.com/Legend-Master/YouTube-Subtitle-Auto-Switcher/main/auto_yt_subtitle_switcher.js
+// @supportURL     https://github.com/Legend-Master/YouTube-Subtitle-Auto-Switcher/issues
+// @match          *://*/*
+// @grant          none
 // ==/UserScript==
 
 (function() {
